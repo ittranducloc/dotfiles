@@ -193,5 +193,6 @@
   "editor.tabSize": 2,
   "telemetry.telemetryLevel": "off",
   "gitlens.telemetry.enabled": false,
-  "editor.fontSize": 12
+  "editor.fontSize": 12,
+  "gitlens.currentLine.enabled": false
 }

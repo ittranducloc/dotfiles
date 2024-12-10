@@ -31,7 +31,7 @@ gsmrm() {
 psa() {
   while test $# -gt 0
   do
-    ps -fe | grep $1 | grep -v "grep $1" | grep -v "$0 $1"
+    ps -fe | grep $1 | grep -v "grep" | grep -v "$0 $1"
     shift
   done
 }
